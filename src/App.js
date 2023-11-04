@@ -18,7 +18,8 @@ class App extends Component {
         formData.append('pdfFile', this.state.selectedFile);
 
         try {
-            const response = await axios.post('https://pdf-array-33ao23dtp-mariadesanchez.vercel.app/pdfviewer', formData, {
+            const response = await axios.post(' https: //pdf-array-208vth7b7-mariadesanchez.vercel.app', formData, {
+
                 headers: {
                     'Content-Type': 'multipart/form-data' // Asegúrate de establecer el tipo de contenido apropiado
                 }
@@ -47,8 +48,8 @@ class App extends Component {
             div >
             <
             h2 > Respuesta del Servidor: < /h2> <
-            p > { this.state.responseText } < /p> <
-            /div> <
+            p > { this.state.responseText } < /p> < /
+            div > <
             /div>
         );
     }
