@@ -18,7 +18,8 @@ class App extends Component {
         formData.append('pdfFile', this.state.selectedFile);
 
         try {
-            const response = await axios.post('https://pdf-array-kusasybgs-mariadesanchez.vercel.app', formData, {
+
+            const response = await axios.post('https://vercel.com/mariadesanchez/pdf-array/pdfviewer', formData, {
 
 
 
